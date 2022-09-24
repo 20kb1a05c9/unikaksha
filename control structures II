@@ -1,0 +1,101 @@
+#series 1
+n=int(input())
+for i in range(0,n):
+    i+=1
+    d=i*i
+    print(d)
+    
+    #series 2
+    n=int(input())
+i=1
+pr=6
+diff=5
+while i<=n:
+    print(pr,end=" ")
+    pr = pr + diff
+    diff = diff + 5
+    i+=1
+    
+    #series 3
+  n=int(input())
+i=1
+pr=3
+while i<=n:
+    print(pr,end=" ")
+    pr=pr*3
+    i+=1
+    
+ #series 4
+ n=int(input())
+i=1
+pr=0.5
+while i<=n:
+    print(pr,end=" ")
+    pr=pr*3
+    i+=1
+    
+    #series5
+    n=int(input())
+sum=11
+for i in range(1,n+1):
+     pr=sum**2
+     sum=sum+4
+     print(pr)
+     
+#series 6
+n=int(input())
+i=1
+pr=0
+while i<=n:
+    if(i%2==0):
+        pr=pow(i, 2) - 2
+        print(pr,end=" ")
+    else:
+        pr = pow(i, 2) - 1
+        print(pr, end=" ")
+    i+=1
+    
+    #series 7
+    n=int(input())
+i=1
+a=1
+b=2.0
+while i<=n:
+    print(a,end=" ")
+    print(b,end=" ")
+    a=a*3
+    b=b*3
+    i+=1
+    
+    #sries 8
+    n=int(input())
+i=1
+a=4
+while i<=n:
+    print(a,end=" ")
+    a=a+(i*i)
+    i+=1
+    
+    #series 9
+    n=int(input())
+i=1
+a=2
+while i<=n:
+    print(a,end=" ")
+    c=a*a
+    a=c-1
+    i+=1
+    
+   #series 10
+   n=int(input())
+i=1
+a=95.0
+b=18.5
+c=2.0
+while i<=n:
+    print(a,end=" ")
+    b=b+c
+    a=a+b
+    i+=1
+    
+    
