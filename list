@@ -1,0 +1,105 @@
+#create a list
+list = []
+n = int(input())
+i=1
+while i<=n:
+    ele = int(input())
+    list.append(ele)
+    i+=1
+print(list)
+
+#large number in a list
+list=[]
+n=int(input())
+i=1
+while i<=n:
+    ele=int(input())
+    list.append(ele)
+    i+=1
+print(max(list))
+
+#odd or even
+elist=[]
+olist=[]
+n=int(input())
+i=1
+while i<=n:
+    ele=int(input())
+    i+=1
+    if ele%2==0:
+        elist.append(ele)
+    else:
+        olist.append(ele)
+    
+print("The even list",elist)
+print("The odd list",olist)
+
+#array mean
+list=[]
+n=int(input())
+i=1
+c=0
+while i<=n:
+    ele=int(input())
+    i+=1
+    c=c+ele
+d=c/n
+list.append(d)
+print(list)
+
+#sort the list
+list1=[]  
+list2=[]  
+n=int(input())
+i=1
+while i<=n:
+    ele=int(input())  
+    list1.append(ele)
+    i+=1
+m=int(input())
+i=1
+while i<=m:
+    ele=int(input())  
+    list2.append(ele)
+    i+=1
+list3=list1+list2  
+list3.sort()  
+print("Sorted list is:",list3)  
+
+#remove duplicates
+list1=[]
+n=int(input())
+i=1
+while i<=n:
+    ele=int(input())
+    i+=1
+    list1.append(ele)
+list1=list(dict.fromkeys(list1))
+print(list1)
+
+#second largest number
+list1=[]
+n=int(input())
+i=1
+while i<=n:
+    ele=int(input())
+    i+=1
+    list1.append(ele)
+list1.sort(reverse=True)
+x=list1[1]
+print(x)
+    
+ #swap numbers
+ list1=[]
+n=int(input())
+i=1
+while i<=n:
+    ele=int(input())
+    i+=1
+    list1.append(ele)
+temp=list1[0]
+list1[0]=list1[n-1]
+list1[n-1]=temp
+print(list1)
+
+
