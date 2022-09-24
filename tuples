@@ -1,0 +1,31 @@
+#add an item
+a=(4,6,2,8,3,1)
+print(a)
+b=(4,6,2,8,3,1,9)
+print(b)
+c=(4,6,2,8,3,15,20,25,4,6,2,8,3)
+print(c)
+d=(30,)
+c+=d
+print(c)
+
+#length of a tuple
+print("cyfuno")
+tuple1=("c","y","f","u","n","o")
+print(tuple1)
+print(len(tuple1))
+
+#reverse a tuple
+print("cyfuno")
+tup1=("c","y","f","u","n","o")
+tup2=tuple(reversed(tup1))
+print(tup2)
+
+#repeated element in a tuple
+tup1=(2,4,5,6,2,3,4,4,7)
+print(tup1)
+n=int(input())
+tup2=tup1.count(n)
+print(tup2)
+  
+  
